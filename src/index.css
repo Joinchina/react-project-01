@@ -1,0 +1,394 @@
+@font-face {
+	font-family: 'Gotham HTF';
+	src: url('./assets/fonts/hinted-subset-GothamHTF-Light.eot');
+	src: local('Gotham HTF Light'), local('GothamHTF-Light'),
+		url('./assets/fonts/hinted-subset-GothamHTF-Light.eot?#iefix') format('embedded-opentype'),
+		url('./assets/fonts/hinted-subset-GothamHTF-Light.woff2') format('woff2'),
+		url('./assets/fonts/hinted-subset-GothamHTF-Light.woff') format('woff'),
+		url('./assets/fonts/hinted-subset-GothamHTF-Light.ttf') format('truetype'),
+		url('./assets/fonts/hinted-subset-GothamHTF-Light.svg#GothamHTF-Light') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'DIN';
+	src: url('./assets/fonts/DIN-Regular.otf');  
+}
+
+
+body,html{
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    background: #f7f7f7;
+	font-family: DIN, Hiragino Sans GB;
+	color: #222222;
+}
+.weixin-content{
+	height: 100%;
+}
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+#root{
+    height: 100%;
+	background-color: #f7f7f7;
+}
+
+.loginContent{
+    padding-left: 25px;
+    padding-right: 25px;
+    /* padding: 15px 15px 0 15px; */
+}
+.loginBox{ 
+    background-repeat: no-repeat;
+    background-size: 375px 603px;
+    height:100%;
+}
+
+.weixin-content .weixin-input{
+    border-radius: 40px;
+    height: 50px;
+    background: #fff;
+    border: 1px solid #fff;
+    box-shadow: 0 0 15px 0.5px rgba(255,91,12,0.2);
+    margin-bottom: 6px;
+    background: #fff;
+    width: 100%;
+    padding-left: 20px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: #4f4f4f;
+    opacity: 0.7;
+	outline: none;
+}
+.weixin-content .weixin-btn{
+    border-radius: 40px;
+    height: 30px;
+    width: 80px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    font-size: 16px;
+    color: #fff;
+    background: #c8161e;
+    border: 1px solid #c8161e;
+	outline: none;
+}
+.weixin-content .weixin-btn-bg{
+    background: red;
+}
+.weixin-content .weixin-btn-unnormalBg{
+    background: gray;
+}
+.weixin-content .form{
+    position: relative;
+    padding:0 15px;
+}
+.footer{
+    position: relative;
+    text-align: center;
+    padding-top: 26px;
+    padding-bottom: 26px;
+}
+.footer img{
+    width: 143.5px;
+    height: 15px;
+}
+
+.weixin-content .content{
+    min-height: 100%;
+    padding-bottom: 81px;
+    margin-bottom: -81px;
+}
+.weixin-content .cardNumbers{
+    font-family: "Gotham HTF","sans-serif";
+    font-size: 33;
+}
+.weixin-content .singleBoxShadowBox{
+	padding-left:15px;
+	padding-right:15px;
+	box-shadow:inset -15px 0 15px #f7f7f7,
+	            inset 15px 0  15px #f7f7f7,
+	            inset 0  -15px 5px #f7f7f7,
+				inset 0 0 15px 1px rgba(255,91,12,.2);
+}
+.weixin-content .singleBoxShadowBox_white{
+	padding-left:15px;
+	padding-right:15px;
+	box-shadow:inset -15px 0 15px #fff,
+	            inset 15px 0  15px #fff,
+	            inset 0  -15px 5px #fff,
+				inset 0 0 15px 1px rgba(255,91,12,.2);
+}
+
+.weixin-content .noResultPageBgByTop{
+	background-image:url('./assets/images/unusualpng.png');
+	background-repeat:no-repeat;
+	background-size:97.5px 150.5px;
+	background-position:center 20px;
+}
+.weixin-content .noResultPageBgByMiddle{
+	background-image:url('./assets/images/unusualpng.png');
+	background-repeat:no-repeat;
+	background-size:97.5px 150.5px;
+	background-position:center 95px;
+}
+.weixin-content .noResultPageBg{
+	background-image:url('./assets/images/login_bg.png');
+	background-repeat:no-repeat;
+	background-size: 375px 603px;
+}
+.weixin-content .noResultPageBgByTopTip{
+	padding-top:150px;
+}
+.weixin-content .noResultPageBgByMiddleTip{
+	padding-top:225px;
+}
+.weixin-content .noResultPageTip{
+	font-weight:bold;
+	font-size:16px;
+	letter-spacing:2px;
+	line-height:30px;
+	padding-left:45px;
+	padding-right:45px;
+	/* text-align: center; */
+}
+.weixin-content .btnBox{
+	justify-content:center;
+	display:flex;
+}
+.weixin-content .pageTopTitle{
+	letter-spacing:2px;
+	font-weight:bold;
+	font-size:16px;
+	color:#4f4f4f;
+	text-align:center;
+	padding-top:16px;
+	padding-bottom:13px;
+	background: #fff;
+}
+.weixin-content .ant-input-affix-wrapper .ant-input-suffix{
+	left:15px;
+    padding-right: 5px;
+}
+.weixin-content .ant-input-affix-wrapper .ant-input-prefix, .ant-input-affix-wrapper .ant-input-suffix{
+	color:#c8161e;
+}
+.searchDrug .ant-input{
+	background-color: #f7f7f7;
+    border: 1px solid #f7f7f7;
+    border-radius: 4px;
+    border-radius: 20px;
+    padding-left: 32.5px;
+    letter-spacing: 2px;
+    font-size: 16px;
+    height: 45px;
+}
+
+.searchDrug .ant-input-affix-wrapper .ant-input-suffix {
+	right: inherit;
+}
+
+.searchDrug .ant-input-affix-wrapper .ant-input:not(:last-child) {
+	padding-right: 80px;
+}
+
+.weixin-content .searchDrug{
+	position: relative;
+}
+.weixin-content .searchDrug .anticon-search:before{
+	font-size: 16px;
+}
+.weixin-content  .searchDrugBtn{
+	background:#fff;
+	border:1px solid #fff;
+	color:#c8161e;
+	letter-spacing:2px;
+	font-size:16px;
+	line-height:35px;
+	height:35px;
+	border-radius:20px;
+	box-shadow:0 0 15px 0.5px rgba(255,91,12,.2);
+}
+.weixin-content .selfOrderDrugTopBox{
+	padding:0px 15px 15px 15px;
+	background: #fff;
+}
+.weixin-content .selfOrderDrugTopBox .ant-select-selection--single{
+	height: 45px;
+	line-height: 45px;
+	background: #f7f7f7;
+	border:none;
+	outline: none;
+}
+.weixin-content .selfOrderDrugTopBox .ant-select-selection__rendered{
+	line-height: 45px;
+}
+.weixin-content .selfOrderDrugTopBox .ant-select-arrow:before ,.selfOrderDrugTopBox .ant-select-arrow:after{
+	content: '';
+}
+.icon:before{
+	content: '';
+	z-index: 1;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    background-image: url(./assets/images/arrow_right.png);
+    background-size: 12px 12px;
+    transform: translateY(-50%);
+    background-repeat: no-repeat;
+}
+.ant-select-focused .ant-select-selection, .ant-select-selection:focus, .ant-select-selection:active{
+	box-shadow: none;
+}
+.selfOrderDrugTopBox .ant-select-selection--single::selection{
+	background: #7f7f7f;
+}
+
+.operatingDrugNumbersBox .operatingDrugNumbers{
+	display:flex;
+	flex-direction:row;
+}
+.operatingDrugNumbers .drugReduce{
+	flex:1;
+}
+.operatingDrugNumbers .drugNumbers{
+	flex:1;
+	text-align:center;
+}
+.operatingDrugNumbers .drugAdd{
+	flex:1;
+	text-align:right;
+}
+/*多行文本超出范围显示...*/
+.weixin-content .hidden-multi-line-text{
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+}
+.weixin-content .searchSelectFont{
+	background:#f7f7f7;
+	padding-left:20px;
+	padding-right:20px;
+	height:45px;
+	line-height:45px;
+	color:#4f4f4f;
+	font-weight:bold;
+	letter-spacing:2px;
+	border-radius:20px;
+	font-size:16px;
+}
+
+/*不可用状态*/
+.weixin-content .searchDrugBtn:disabled,.weixin-content .weixin-btn:disabled{
+	background: #7f7f7f;
+	color:#fff;
+	border-color: #7f7f7f;
+}
+.weixin-content .forbidden{
+	opacity:0.5;
+}
+.weixin-content .clickPositionFont{
+	color: #c8161e;
+}
+.weixin-content .noOrdersBtnBg{
+	background: #7f7f7f;
+	border-color: #7f7f7f;
+}
+.weixin-content .has-error .ant-input:focus,.weixin-content .ant-input:focus{
+	box-shadow: 0 0 15px 0.5px rgba(255,91,12,0.2)
+}
+.weixin-content .ant-btn-primary{
+	background-color: #c8161e;
+	border-color:#c8161e;
+}
+.weixin-content .ant-form-item{
+	margin-bottom: 0px;
+}
+.weixin-content .ant-btn:hover, .ant-btn:focus ,.ant-btn:active, .ant-btn.active,.ant-btn::selection{
+	background-color: #c8161e;
+	border-color:#c8161e;
+	color: #fff;
+}
+
+/*选择区域*/
+.weixin-content .selectAddressBox{
+	display: flex;
+    background: #f7f7f7;
+	display: flex;
+	margin:0 15px;
+	border-radius: 20px;
+}
+.weixin-content .selectAddressBox .ant-input{
+	font-size: 16px;
+	line-height: 45px;
+	height: 45px;
+	padding: 0 20px;
+	letter-spacing: 2px;
+	border-radius: 20px;
+	border: 1px solid #4f4f4f;
+}
+.weixin-content .selectAddressBox .ant-input:hover,.ant-cascader-picker:focus ,.ant-cascader-input{
+	border-color: #4f4f4f;
+}
+.weixin-content .selectedFont{
+	color:#4f4f4f;
+   	font-weight: bold;
+}
+.weixin-content .selectingFont{
+	color: #c8161e;
+	font-weight: bold;
+}
+.weixin-content .unselectedFont{
+	color:#4f4f4f;
+	opacity: 0.7;
+	font-weight: bold;
+}
+.weixin-content .unselectedBorder{
+	border:1px solid #4f4f4f;
+}
+.selectAddressBox .ant-cascader-picker-label{
+	padding: 0 20px;
+    color: #4f4f4f;
+    font-size: 16px;
+}
+
+.globalLayout{
+	height: 100%;
+    padding-bottom: 73px;
+    margin-bottom: -73px;
+}
+.wrap{
+	min-height: 100%;
+}
+.am-list-item .am-list-line{
+    padding-right: 0px !important;
+}
+.weixin-content .btnFocusStyle{
+	background-color: #c8161e;
+	color: #fff;
+	outline: none;
+}
+.globalLayout .am-list-item{
+	padding-left: 0
+}
+.globalLayout .am-list-item .am-list-line .am-list-content{
+	font-size: 14px
+}
+.globalLayout .am-list-item .am-list-line{
+	padding-right: 0
+}
+.detail .am-list-item .am-list-line .am-list-extra{
+	color: #000
+}
+.wrap .am-list-item .am-list-line-multiple{
+	padding: 5px 15px 5px 0
+}

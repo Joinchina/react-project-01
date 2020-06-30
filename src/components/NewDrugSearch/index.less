@@ -1,0 +1,230 @@
+@font-face {
+    font-family: 'iconfont';  /* project id 1310653 */
+    src: url('https://at.alicdn.com/t/font_1310653_584yuecskws.eot');
+    src: url('https://at.alicdn.com/t/font_1310653_584yuecskws.eot?#iefix') format('embedded-opentype'),
+    url('https://at.alicdn.com/t/font_1310653_584yuecskws.woff2') format('woff2'),
+    url('https://at.alicdn.com/t/font_1310653_584yuecskws.woff') format('woff'),
+    url('https://at.alicdn.com/t/font_1310653_584yuecskws.ttf') format('truetype'),
+    url('https://at.alicdn.com/t/font_1310653_584yuecskws.svg#iconfont') format('svg');
+}
+
+p{margin-bottom: 0}
+.new-drug-search{
+    padding-top: 10px;
+    .hisBox{
+        padding-left: 16px;
+        padding-right: 16px;
+        margin-top: 20px;
+        .hisTextBox-1{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-bottom: 18px;
+            .histDelete{
+                font-family:"iconfont" !important;
+                font-size:16px;font-style:normal;
+                -webkit-font-smoothing: antialiased;
+                -webkit-text-stroke-width: 0.2px;
+                -moz-osx-font-smoothing: grayscale;
+                color: #9A9A9A
+            }
+            .hisText{
+                font-size: 16px;
+                color: #707070;
+            }
+        }
+        .hisTextBox-2{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            flex-wrap: wrap;
+            .hisSearchText{
+                padding-top: 9px;
+                padding-bottom: 9px;
+                padding-left: 12px;
+                padding-right: 12px;
+                background-color: #fff;
+                margin-right: 11px;
+                margin-bottom: 10px;
+                color: #222222;
+                font-size: 16px;
+                border-radius: 5px;
+            }
+        }
+    }
+    .newSearchDrugBox{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-left: 16px;
+        padding-right: 16px;
+        .newDrugSearchInput{
+            border-radius: 19px;
+            height: 38px;
+            background: #e8e8e8;
+            border-width: 0px;
+            width: 100%;
+            padding-left: 36px;
+            font-size: 16px;
+            letter-spacing: 2px;
+            color: #4f4f4f;
+            opacity: 1;
+            outline: none;
+            margin-right: 7px;
+        }
+        .newDrugSearchBtn{
+            font-size: 16px;
+            color: #222222;
+            width: 32px;
+        }
+        .newSearchBtn{
+            background-color: #f7f7f7;
+            border-width: 0px;
+            padding: 0px;
+            font-size: 16px;
+            color: #222222;
+        }
+        .newCloseSty{
+            font-size: 16;
+            color: #4f4f4f;
+            position: absolute;
+            right:70px;
+            top:22px;
+        }
+        .newSearchIconSty{
+            font-size: 20px;
+            color: #4f4f4f;
+            position: absolute;
+            left: 29px;
+            top: 21px;
+            line-height: 1;
+        }
+    }
+    .newDrugsListSty{
+        padding-left: 16px;
+        padding-right: 16px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-top: 14px;
+        .newDrugListSpin{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .newDrugBox{
+            width: 48%;
+            height: 260px;
+            display: flex;
+            flex-direction: column;
+            background-color: #fff;
+            border-radius: 5px;
+            margin-bottom: 11px;
+            padding-top: 22px;
+            padding-left: 11px;
+            padding-right: 11px;
+            .new-drug-list-imgbox{
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                height: 50%;
+                overflow: hidden;
+            }
+            .new-drug-list-liBox{
+                display: flex;
+                flex-direction: column;
+                position: relative;
+                justify-content: space-between;
+                flex: 1;
+                padding: 10px 0;
+                .new-drug-list-labelsBox{
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    flex-wrap: wrap;
+                    margin-bottom: 2px;
+                    position: absolute;
+                    top: -85px;
+                    .new-drug-list-label-sty{
+                        padding-top: 2px;
+                        padding-bottom: 2px;
+                        padding-left: 4px;
+                        padding-right: 4px;
+                        color: #F36A54;
+                        font-size: 12px;
+                        border: 1px solid #F36A54;
+                        border-radius: 2px;
+                        margin-right: 6px;
+                    }
+                }
+                .new-drug-list-name-sty{
+                    font-size: 16px;
+                    color: #222222;
+                    height: 39px;
+                    line-height: 1.3;
+                    overflow: hidden;
+                }
+                .new-drug-list-price-sty{
+                    font-weight: bold;
+                    height: 21px;
+                    opacity: 1;
+                    font-size: 16px;
+                    font-family: DIN, Hiragino Sans GB;
+                    color: rgba(200,22,29,1);
+                    letter-spacing: 0px;
+                }
+                .new-drug-list-price-sty-1{
+                    font-weight: bold;
+                    height: 21px;
+                    opacity: 1;
+                    font-size: 16px;
+                    font-family: DIN, Hiragino Sans GB;
+                    color: #9A9A9A;
+                    letter-spacing: 0px;
+                }
+            }
+            .new-drug-list-img-sty{
+                max-width: 120px;
+                max-height: 120px;
+            }
+        }
+        .newNoDrugsList{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            margin-top: 100px;
+            .new-no-drug-imgbox{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-bottom: 103px;
+                .noSearchListIcon{
+                    margin-bottom: 9px;
+                }
+                .noSearchListText{
+                    opacity: 1;
+                    font-size: 16px;
+                    color: rgba(34,34,34,1);
+                    letter-spacing: 0px;
+                }
+            }
+            .new-no-drug-textbox{
+                .new-no-drug-text-sty{
+                    opacity: 1;
+                    font-size: 16px;
+                    text-decoration: underline;
+                    color: rgba(65,141,199,1);
+                    letter-spacing: 0px;
+                    display: block;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

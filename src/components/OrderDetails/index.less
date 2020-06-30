@@ -1,0 +1,254 @@
+.OrderDetail{
+    background: #F9F9F9;
+    .orderStatuBox{
+        text-align: center;
+        height: 155px;
+        padding: 30px 0px 22px 0px;
+        border-bottom: 1px solid #E8E8E8;
+        background: url('../../states/images/order_detail_bg.png');
+        .status{ 
+            opacity: 1;
+            font-size: 18px;
+            font-family: DIN, Hiragino Sans GB;
+            color: rgba(34,34,34,1);
+            font-weight: 600;
+            padding: 5px 0px;
+        }
+        .refund{ 
+            opacity: 1;
+            font-size: 16px;
+            font-family: DIN, Hiragino Sans GB;
+            color: rgba(34,34,34,1);
+            font-weight: 300;
+        }
+        .refund b{ 
+            color: #C8161D
+        }
+    }
+    .label{ 
+        opacity: 1;
+        font-size: 18px;
+        font-weight: 600;
+        font-family: DIN, Hiragino Sans GB;
+        color: rgba(34,34,34,1);
+        padding-bottom: 12px; 
+    }
+    .value{ 
+        opacity: 1;
+        font-size: 18px;
+        font-weight: 300;
+        font-family: DIN, Hiragino Sans GB;
+        color: rgba(34,34,34,1);
+    }
+    .addressType{
+        border: 1px solid rgba(200,22,29,1);
+        padding: 3px;
+        min-width: 45px;
+        max-height: 30px;
+        margin-top: 3px;
+        margin-right: 5px;
+        line-height: 22px;
+        text-align: center;
+        opacity: 1;
+        border-radius: 4px 4px 4px 4px; 
+        opacity: 1;
+        font-size: 16px;
+        font-family: DIN, Hiragino Sans GB;
+        color: rgba(200,22,29,1);
+    }
+    .labelBox{
+        padding: 16px;
+        border-bottom: 1px solid #E8E8E8;
+    }
+    .amount{ 
+        opacity: 1;
+        font-size: 18px;
+        font-family: DIN, Hiragino Sans GB;
+        color: rgba(102,102,102,1);
+        line-height: 35px;
+        text-align: right;
+    }
+    .amountCount{ 
+        opacity: 1;
+        font-size: 22px;
+        font-family: DIN, Hiragino Sans GB;
+        color: rgba(34,34,34,1);
+        text-align: right;
+    }
+    .orderNo{ 
+        opacity: 1;
+        font-size: 18px;
+        font-family: DIN, Hiragino Sans GB;
+        color: rgba(34,34,34,1);
+        line-height: 35px;
+        text-align: right;
+        font-weight: 500;
+    }
+    .orderDate{ 
+        opacity: 1;
+        font-size: 18px;
+        font-family: DIN, Hiragino Sans GB;
+        color: rgba(34,34,34,1);
+        line-height: 35px;
+        text-align: right;
+    }
+   
+}
+.orderDetailList{
+    .drugBox{ 
+        margin: 12px 0px;
+    }
+    .imgBox{
+        width: 72px;
+        height: 72px;
+        opacity: 1;
+        background: rgba(255,255,255,1);
+        text-align: center;
+    }
+    .imgBox img{
+        max-width: 60px; 
+        max-height: 60px; 
+    }
+    .ant-col-16{
+        width: calc(100% - 72px);
+        min-height: 84px; 
+        border-bottom: 1px solid #E8E8E8;
+    }
+    .drugName{ 
+        padding-left: 8px;
+        opacity: 1;
+        font-size: 16px;
+        font-family: DIN, Hiragino Sans GB;
+        color: rgba(34,34,34,1);
+        line-height: 20px; 
+        min-height: 55px;
+    }
+    .packageSize{ 
+        padding-left: 8px;
+        opacity: 1;
+        font-size: 14px;
+        font-family: DIN, Hiragino Sans GB;
+        color: rgba(154,154,154,1);
+        line-height: 18px;
+    }
+    .amount{  
+        font-size: 16px;
+        font-family: DIN, Hiragino Sans GB;
+        color: rgba(34,34,34,1);
+        line-height: 20px;
+    }
+    .count{
+        color: #666666;
+        line-height: 18px;
+    }
+    .returnButton, .returnButton:focus, .returnButton:hover{
+        color: #666666;
+        background-color: #fff;
+        border-color: #9A9A9A;
+    }
+
+}
+.orderFlow{ 
+    .title{
+        width: 100%;
+        text-align: center;
+    }
+    .mainFont{ 
+        opacity: 1;
+        font-size: 18px;
+        font-family: DIN, Hiragino Sans GB;
+        color: rgba(34,34,34,1);
+    }
+    .closeBtn{
+        font-size: 24px;
+        color: #9A9A9A;
+        position: absolute;
+        top: 17px;
+        right: 17px;
+
+    }
+    .flowBox{
+        padding-top: 19px;
+        padding-left: 10px;
+        height: 430px; 
+        overflow: auto; 
+    }  
+    .ant-timeline-item-head-blue {
+        color: #9A9A9A;
+        border-color: #9A9A9A;
+        width: 10px !important;
+        height: 10px !important; 
+        border-color: #9A9A9A;
+        background-color: #9A9A9A; 
+        left: 0px !important;
+    }
+    .ant-timeline-item-head-red {
+        color: #9A9A9A;
+        border-color: #9A9A9A;
+        background-color: #9A9A9A;
+    }
+    .ant-timeline-item-head{
+        width: 15px;
+        height: 15px; 
+        left: -3px;
+    }
+    .flowContent{  
+        font-size: 18px;
+        font-family: DIN, Hiragino Sans GB;
+        color: rgba(34,34,34,1);
+        line-height: 22px;
+        margin-bottom: 8px;
+    }
+    .flowDate{  
+        font-size: 14px;
+        font-family: DIN, Hiragino Sans GB;
+        color: rgba(102,102,102,1);
+        line-height: 20px;
+    }
+}
+ 
+.am-grid .am-flexbox {
+    background: unset
+}
+.imgCarouselModal{
+    width: calc(100vw) !important;
+    height: calc(100vh) !important;
+    max-width: calc(100vw) !important;
+    background-color: rgba(0, 0, 0, 0.45);
+    margin: auto !important;
+    top: 0px; 
+    .ant-modal-body{
+        padding: 0px;
+        background-color: rgba(0, 0, 0, 0.45);
+    }
+    .am-carousel{
+        height: 100% !important;
+        background-color: rgba(0, 0, 0, 0.45);
+    }
+    .ant-modal-content, .ant-modal-body{ 
+        background-color: rgba(0, 0, 0, 0.45);
+    }
+     
+}
+.imgCarousel{
+    width:  100%;
+    .imgItem{
+        height: calc(100vh)!important;
+        width: calc(100vw)!important;
+        background-color: rgba(0, 0, 0, 0.45);
+        text-align: center;  
+        vertical-align: middle;
+        display: table-cell;
+        img{ 
+            max-height: calc(100vh);
+            max-width: calc(100vw); 
+        }
+    } 
+}
+.am-grid::before, .am-grid::after, .am-flexbox::after, .am-grid-item::before, .am-grid-item::after{
+    height: 0px !important;
+    width: 0px !important;
+} 
+.am-grid .am-flexbox .am-flexbox-item .am-grid-item-content{
+    padding: 5px; 
+}

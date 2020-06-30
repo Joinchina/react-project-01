@@ -1,0 +1,29 @@
+.select-box{ 
+    height: 45px; 
+    position: relative;
+    border-bottom: 1px solid #e8e8e8;
+}
+.position-box{
+    position: absolute;
+    width: 100%;
+    z-index: 99
+}
+.select-input{
+    float: left;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #F9F9F9;
+    width: 100%; 
+    margin-top: 10px; 
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.select-icon{
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    right: 20px;
+    top: 16px;
+}

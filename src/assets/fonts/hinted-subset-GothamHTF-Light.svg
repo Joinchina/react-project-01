@@ -1,0 +1,93 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+<metadata>
+Created by FontForge 20161013 at Tue Aug 22 11:46:13 2017
+ By ,,,
+HTF Gotham Copr. 2000 The Hoefler Type Foundry, Inc. Info: www.typography.com
+</metadata>
+<defs>
+<font id="GothamHTF-Light" horiz-adv-x="642" >
+  <font-face 
+    font-family="Gotham HTF Light"
+    font-weight="300"
+    font-stretch="normal"
+    units-per-em="1000"
+    panose-1="0 0 0 0 0 0 0 0 0 0"
+    ascent="800"
+    descent="-200"
+    bbox="30 -12 645 712"
+    underline-thickness="20"
+    underline-position="-173"
+    unicode-range="U+0020-0039"
+  />
+<missing-glyph horiz-adv-x="500" 
+ />
+    <glyph glyph-name=".notdef" horiz-adv-x="500" 
+ />
+    <glyph glyph-name=".null" horiz-adv-x="0" 
+ />
+    <glyph glyph-name="nonmarkingreturn" horiz-adv-x="333" 
+ />
+    <glyph glyph-name="space" unicode=" " horiz-adv-x="300" 
+ />
+    <glyph glyph-name="zero" unicode="0" horiz-adv-x="710" 
+d="M645 351q0 -98 -35 -180t-102.5 -132.5t-153.5 -50.5t-153 50t-101.5 131.5t-34.5 179.5t35 180t102.5 132.5t153.5 50.5t153 -50t101.5 -131.5t34.5 -179.5zM591 349q0 128 -66 222t-171 94t-170 -93t-65 -221t66 -222t171 -94t170 93t65 221z" />
+    <glyph glyph-name="one" unicode="1" horiz-adv-x="335" 
+d="M30 646l160 59h40v-705h-51v651l-135 -46z" />
+    <glyph glyph-name="two" unicode="2" horiz-adv-x="590" 
+d="M306 664q-64 0 -111.5 -32t-93.5 -98l-39 26q50 76 106 113t143 37q89 0 148.5 -55t59.5 -138q0 -69 -38.5 -126.5t-136.5 -146.5l-214 -194h396v-50h-478v39l261 236q87 79 121 131.5t34 107.5q0 66 -46.5 108t-111.5 42z" />
+    <glyph glyph-name="three" unicode="3" horiz-adv-x="610" 
+d="M457 651h-367v49h438v-37l-237 -271q108 -6 178 -56.5t70 -142.5q0 -90 -67 -147.5t-161 -57.5q-160 0 -257 126l40 33q88 -112 218 -112q72 0 122.5 44t50.5 112q0 72 -60.5 112.5t-157.5 40.5h-38l-13 29z" />
+    <glyph glyph-name="four" unicode="4" horiz-adv-x="664" 
+d="M448 705h47v-489h114v-45h-114v-171h-50v171h-379l-18 39zM445 216v414l-334 -414h334z" />
+    <glyph glyph-name="five" unicode="5" horiz-adv-x="605" 
+d="M102 361l20 339h393v-50h-347l-17 -262q78 38 155 38q103 0 171.5 -59.5t68.5 -152.5q0 -99 -69 -162.5t-175 -63.5q-68 0 -132 31.5t-113 81.5l37 37q103 -103 210 -103q82 0 135 51t53 126q0 74 -53.5 120.5t-138.5 46.5q-77 0 -158 -44z" />
+    <glyph glyph-name="six" unicode="6" 
+d="M551 631l-33 -40q-83 74 -173 74q-106 0 -169.5 -101t-59.5 -262q76 130 219 130q99 0 170 -60.5t71 -152.5q0 -100 -70.5 -165.5t-174.5 -65.5q-108 0 -178 70q-46 46 -67.5 107.5t-21.5 166.5q0 163 78.5 271.5t206.5 108.5q103 0 202 -81zM522 217q0 73 -53.5 121
+t-136.5 48t-139 -53t-56 -121q0 -76 56.5 -126.5t141.5 -50.5q83 0 135 52.5t52 129.5z" />
+    <glyph glyph-name="seven" unicode="7" horiz-adv-x="587" 
+d="M68 650v50h464v-38l-319 -662h-57l318 650h-406z" />
+    <glyph glyph-name="eight" unicode="8" horiz-adv-x="630" 
+d="M575 188q0 -87 -74.5 -142.5t-185.5 -55.5t-185.5 55.5t-74.5 142.5q0 60 43 105.5t112 68.5q-131 53 -131 164q0 80 71 132t165 52t165 -52t71 -132q0 -111 -131 -164q69 -23 112 -68.5t43 -105.5zM497 526q0 59 -52.5 98t-129.5 39t-129.5 -39t-52.5 -98
+q0 -64 53 -104.5t129 -40.5t129 40.5t53 104.5zM521 186q0 65 -59.5 108t-146.5 43t-146.5 -43t-59.5 -108q0 -62 56 -105.5t150 -43.5t150 43.5t56 105.5z" />
+    <glyph glyph-name="nine" unicode="9" 
+d="M578 367q0 -165 -81 -272t-204 -107q-108 0 -211 87l33 40q89 -80 179 -80q106 0 172 102t60 259q-75 -135 -218 -135q-105 0 -173.5 61.5t-68.5 153.5q0 99 69 167.5t177 68.5q107 0 178 -71q88 -88 88 -274zM505 486q0 76 -56.5 127.5t-142.5 51.5q-83 0 -134.5 -55
+t-51.5 -132q0 -74 53.5 -122.5t136.5 -48.5q86 0 140.5 54.5t54.5 124.5z" />
+    <hkern u1="&#x30;" u2="&#x37;" k="30" />
+    <hkern u1="&#x30;" u2="&#x33;" k="10" />
+    <hkern u1="&#x30;" u2="&#x32;" k="10" />
+    <hkern u1="&#x30;" u2="&#x31;" k="5" />
+    <hkern u1="&#x32;" u2="&#x37;" k="15" />
+    <hkern u1="&#x32;" u2="&#x34;" k="30" />
+    <hkern u1="&#x33;" u2="&#x39;" k="5" />
+    <hkern u1="&#x33;" u2="&#x37;" k="25" />
+    <hkern u1="&#x33;" u2="&#x35;" k="5" />
+    <hkern u1="&#x34;" u2="&#x39;" k="10" />
+    <hkern u1="&#x34;" u2="&#x37;" k="40" />
+    <hkern u1="&#x34;" u2="&#x31;" k="20" />
+    <hkern u1="&#x35;" u2="&#x39;" k="5" />
+    <hkern u1="&#x35;" u2="&#x37;" k="30" />
+    <hkern u1="&#x35;" u2="&#x33;" k="5" />
+    <hkern u1="&#x35;" u2="&#x32;" k="10" />
+    <hkern u1="&#x36;" u2="&#x39;" k="10" />
+    <hkern u1="&#x36;" u2="&#x37;" k="25" />
+    <hkern u1="&#x36;" u2="&#x33;" k="10" />
+    <hkern u1="&#x36;" u2="&#x31;" k="20" />
+    <hkern u1="&#x37;" u2="&#x39;" k="15" />
+    <hkern u1="&#x37;" u2="&#x38;" k="10" />
+    <hkern u1="&#x37;" u2="&#x36;" k="20" />
+    <hkern u1="&#x37;" u2="&#x35;" k="25" />
+    <hkern u1="&#x37;" u2="&#x34;" k="85" />
+    <hkern u1="&#x37;" u2="&#x33;" k="20" />
+    <hkern u1="&#x37;" u2="&#x32;" k="15" />
+    <hkern u1="&#x37;" u2="&#x31;" k="-10" />
+    <hkern u1="&#x37;" u2="&#x30;" k="20" />
+    <hkern u1="&#x38;" u2="&#x39;" k="5" />
+    <hkern u1="&#x38;" u2="&#x37;" k="10" />
+    <hkern u1="&#x39;" u2="&#x37;" k="25" />
+    <hkern u1="&#x39;" u2="&#x35;" k="5" />
+    <hkern u1="&#x39;" u2="&#x33;" k="10" />
+    <hkern u1="&#x39;" u2="&#x32;" k="10" />
+  </font>
+</defs></svg>

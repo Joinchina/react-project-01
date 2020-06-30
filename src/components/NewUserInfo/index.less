@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'iconfont';  /* project id 1310653 */
+    src: url('https://at.alicdn.com/t/font_1310653_34cal8anz3t.eot');
+    src: url('https://at.alicdn.com/t/font_1310653_34cal8anz3t.eot?#iefix') format('embedded-opentype'),
+    url('https://at.alicdn.com/t/font_1310653_34cal8anz3t.woff2') format('woff2'),
+    url('https://at.alicdn.com/t/font_1310653_34cal8anz3t.woff') format('woff'),
+    url('https://at.alicdn.com/t/font_1310653_34cal8anz3t.ttf') format('truetype'),
+    url('https://at.alicdn.com/t/font_1310653_34cal8anz3t.svg#iconfont') format('svg');
+}
+
+@font-face {
+    font-family: 'iconfont1';  /* project id 1376442 */
+    src: url('https://at.alicdn.com/t/font_1376442_zg199aqenjg.eot');
+    src: url('https://at.alicdn.com/t/font_1376442_zg199aqenjg.eot?#iefix') format('embedded-opentype'),
+    url('https://at.alicdn.com/t/font_1376442_zg199aqenjg.woff2') format('woff2'),
+    url('https://at.alicdn.com/t/font_1376442_zg199aqenjg.woff') format('woff'),
+    url('https://at.alicdn.com/t/font_1376442_zg199aqenjg.ttf') format('truetype'),
+    url('https://at.alicdn.com/t/font_1376442_zg199aqenjg.svg#iconfont') format('svg');
+}
+
+.newOrderInfo{
+    p{
+        line-height: 1;
+    }
+    span{
+        line-height: 1;
+    }
+    .iconfont {
+        font-family: "iconfont" !important;
+        font-size: 16px;
+        font-style: normal;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+        -webkit-text-stroke-width: 0.2px;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    .iconfont1 {
+        font-family: "iconfont1" !important;
+        font-size: 16px;
+        font-style: normal;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+        -webkit-text-stroke-width: 0.2px;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    
+    .mineInfoSty {
+        background: url('./images/mineBac.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    
+    .mineListSty {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 8px; 
+        background-color: #fff; 
+        padding-right: 20px;
+        padding-left: 12px; 
+        padding-top: 18px; 
+        padding-bottom: 18px;
+        border-radius: 6px;
+    }
+    .mineInfoSty_banner{
+        background: url('./images/banner_bac.png');
+        background-repeat: no-repeat;
+        background-size: cover; 
+        border-radius: 4px;
+        height: 60px;
+        margin: 12px 16px 0 16px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        .get_btn{
+            padding: 3px 12px;
+            font-size: 16px;
+            color: #FFFFFF;
+            border-radius: 12px;
+            background-color: #F48E18;
+            line-height: 1;
+        }
+    }
+    .code_box{
+        width: 89.3%;
+        height: 227px;
+        border-radius: 16px;
+        background-color: #ffffff;
+        border: 1px solid #F3F3F3;
+        display: none;
+        .code_1{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 56px 36px 28px 36px;
+        }
+        .code_2{
+            text-align: center;
+            font-size: 18px;
+            color: #222222;
+            border-top: 1px solid #F3F3F3;
+            line-height: 50px;
+        }
+    }
+    .code_box_show{
+        width: 89.3%;
+        height: 227px;
+        border-radius: 16px;
+        background-color: #ffffff;
+        border: 1px solid #F3F3F3;
+        position: absolute;
+        // top: 50%;
+        left: 50%;
+        margin-top: -113.5px;
+        margin-left: -45%;
+        z-index: 99;
+        .code_1{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 56px 36px 28px 36px;
+        }
+        .code_2{
+            text-align: center;
+            font-size: 18px;
+            color: #222222;
+            border-top: 1px solid #F3F3F3;
+            line-height: 50px;
+        }
+    }
+    .showBac_1{
+        width: 100%;
+        height: 130%;
+        position: absolute;
+        background: #e8e8e8;
+        top: 0;
+        opacity: 0.8;
+        z-index: 9;
+    }
+}

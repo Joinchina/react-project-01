@@ -1,0 +1,11 @@
+.selectNumber {
+    height: 30px;
+    position: relative;
+    padding: 0 40px;
+    border-radius: 20px;
+}
+
+.selectNumber input:focus {
+    outline: none;
+    border: none;
+}

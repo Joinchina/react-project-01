@@ -1,0 +1,427 @@
+.drug_evaluation {
+    padding-top: 12px;
+    display: flex;
+    flex-direction: column;
+    .title_sty{
+        font-size: 18px;
+        color: #333333;
+        font-weight: bold;
+    }
+    .topbox{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 16px 16px;
+        background-color: #ffffff;
+        border-radius: 12px;
+        padding: 16px 18px 16px 16px;
+        .top_box_pic{
+            width: 75px;
+            height: 66px;
+        }
+        .top_box_1{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .top_explain_info{
+                font-size: 16px;
+                color: #666666;
+                margin-top: 12px;
+                margin-bottom: 6px;
+            }
+            .top_btn{
+                background-color: #C8161D;
+                border-radius: 14px;
+                font-size: 14px;
+                color: #ffffff;
+                text-align: center;
+                width: 160px;
+                height: 28px;
+                line-height: 28px;
+                margin-top: 16px;
+            }
+        }
+    }
+    .btomBox{
+        background-color: #ffffff;
+        flex: 1;
+        padding-top: 16px;
+        .btom_title{
+            margin-left: 14px;
+            margin-bottom: 16px;
+            margin-top: 12px;
+        }
+        .btom_list_list{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            margin-left: 18px;
+            margin-right: 16px;
+            border-bottom: 1px solid #F8F8F8;
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+            .bto_pic_sty{
+                width: 36px;
+                height: 36px;
+            }
+            .bto_text_sty{
+                font-size: 18px;
+                color: #333333;
+                font-family: Hiragino Sans GB;
+            }
+            .btom_btn_sty{
+                width: 78px;
+                height: 28px;
+                background-color: #ffffff;
+                border-radius: 14px;
+                font-size: 14px;
+                color: #222222;
+                text-align: center;
+                line-height: 28px;
+                border: 1px solid #B2B2B2;
+            }
+        }
+    }
+}
+.evaluation_patient{
+    padding-top: 12px;
+    .ant-spin-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .title_sty{
+        font-size: 18px;
+        color: #333333;
+        font-weight: bold;
+    }
+    .topbox{
+        display: flex;
+        flex-direction: column;
+        margin: 0 16px 16px;
+        background-color: #ffffff;
+        border-radius: 12px;
+        padding: 16px 18px 16px 16px;
+        align-items: center;
+        .top_box_pic{
+            width: 72px;
+            height: 60px;
+        }
+        .top_box_1{
+            display: flex;
+            flex-direction: column;
+            .top_explain_info{
+                font-size: 16px;
+                color: #666666;
+                margin-top: 10px;
+                margin-bottom: 6px;
+                font-family: Hiragino Sans GB;
+            }
+        }
+    }
+    .btmBox{
+        flex: 1;
+        background-color: #ffffff;
+        padding: 12px 16px 16px;
+        .disease_list_title{
+            line-height: 44px;
+            font-size: 16px;
+            color: #666666;
+            margin-right: 14px;
+        }
+        .btm_list_box{
+            height: 44px;
+            line-height: 44px;
+            .btm_list_title{
+                font-size: 18px;
+                color: #666666;
+                margin-right: 14px;
+            }
+            .btm_list_info{
+                font-size: 18px;
+                color: #222222;
+            }
+        }
+        .disease_box{
+            display: flex;
+            flex-direction: row;
+            align-items: baseline;
+            .disease_list_box{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                flex: 1;
+                .disease_info{
+                    background-color: #F8F8F8;
+                    border-radius: 4px;
+                    position: relative;
+                    font-size: 16px;
+                    color: #222222;
+                    height: 36px;
+                    text-align: center;
+                    line-height: 36px;
+                    margin-right: 8px;
+                    padding: 0px 15px;
+                    border-radius: 4px;
+                    margin-bottom: 16px;
+                    .disease_pic{
+                        width: 16px;
+                        height: 16px;
+                        position: absolute;
+                        top: -8px;
+                        right: -8px;
+                    }
+                }
+                .add_sty{
+                    background: #F8F8F8 url('./images/pic_5.png') no-repeat center;
+                    width: 78px;
+                    height: 28px;
+                    border-radius: 4px;
+                }
+            }
+        }
+        .btom_neextStep_btn{
+            height: 44px;
+            background-color: #C8161D;
+            color: #ffffff;
+            font-family: Hiragino Sans GB;
+            font-size: 18px;
+            text-align: center;
+            line-height: 44px;
+            border-radius: 6px;
+            position: fixed;
+            bottom: 16px;
+            width: 91.46%;
+        }
+    }
+    .registerModal{
+        top:0px;
+    }
+    .diseaseItem{
+        height: 54px;
+        font-size: 18px;
+        border-bottom:1px solid #e8e8e8;
+        padding-top: 17px;
+    }
+    .submitButton, .submitButton:hover,.submitButton:focus{
+        font-size: 18px;
+        width: 100%;
+        height: 46px;
+        background-color: #C8161D;
+        border-radius: 4px;
+        color: #fff;
+        border: unset;
+    }  
+}
+.evaluation_drug_info{
+    .ant-select-enabled{
+        width: 70%;
+    }
+    .ant-select-selection-selected-value{
+        width: 100%;
+        text-align: center;
+    }
+    .ant-select-selection--single{
+        background-color: #F8F8F8;
+    }
+    .showNumber{
+        width: 50%;
+    }
+    .am-stepper-handler-up{
+        width: 30px;
+        background-color: #f8f8f8;
+    }
+    .am-stepper-handler-down{
+        width: 30px;
+        background-color: #f8f8f8;
+    }
+    .am-stepper-input{
+        font-family: DIN;
+        font-size: 16px;
+        color: #222222;
+    }
+    .ant-select-selection-selected-value{
+        font-size: 16px;
+    }
+    .drug_box{
+        margin: 8px 16px 12px;
+        padding: 16px 23px 20px 14px;
+        background-color: #ffffff;
+        border-radius: 6px;
+        position: relative;
+        .drug_box_1{
+            display: flex;
+            flex-direction: row;
+            .drug_info{
+                display: flex;
+                flex-direction: column;
+            }
+            .drug_name_sty{
+                font-size: 16px;
+                color: #222222;
+            }
+            .drug_text_sty{
+                font-size: 14px;
+                color: #666666;
+            }
+            .drug_pic_sty{
+                max-width: 86px;
+                max-height: 83px;
+                margin-right: 12px;
+            }
+        }
+    }
+    .newNoDrugsList{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-top: 100px;
+        .new-no-drug-imgbox{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 103px;
+            .noSearchListIcon{
+                margin-bottom: 9px;
+            }
+            .noSearchListText{
+                opacity: 1;
+                font-size: 16px;
+                color: rgba(34,34,34,1);
+                letter-spacing: 0px;
+            }
+        }
+        .new-no-drug-textbox{
+            .new-no-drug-text-sty{
+                opacity: 1;
+                font-size: 16px;
+                text-decoration: underline;
+                color: rgba(65,141,199,1);
+                letter-spacing: 0px;
+                display: block;
+                text-align: center;
+            }
+        }
+    }
+}
+.evaluationResult{
+    padding: 0 16px 0;
+    .res_title{
+        font-size: 18px;
+        color: #333333;
+        font-weight: bold;
+        margin-bottom: 12px;
+        margin-top: 20px;
+    }
+    .res_patient{
+        background-color: #ffffff;
+        padding: 24px 12px;
+    }
+    .drug_box{
+        padding: 16px 12px;
+        background-color: #ffffff;
+        border-radius: 6px;
+        position: relative;
+        .drug_box_1{
+            display: flex;
+            flex-direction: row;
+            .drug_info{
+                display: flex;
+                flex-direction: column;
+            }
+            .drug_name_sty{
+                font-size: 16px;
+                color: #222222;
+            }
+            .drug_text_sty{
+                font-size: 14px;
+                color: #666666;
+            }
+            .drug_pic_sty{
+                max-width: 86px;
+                max-height: 83px;
+                margin-right: 12px;
+            }
+        }
+        .drug_box_2{
+            background-color: #F8F8F8;
+            border-radius: 4px;
+            padding: 8px 12px;
+            margin-top: 14px;
+            .drug_box_2_text{
+                font-size: 14px;
+                color: #222222;
+            }
+        }
+        .drug_box_3{
+            .drug_box_3_title{
+                font-size: 16px;
+                color: #666666;
+                margin: 12px 0;
+            }
+            .drug_box_3_list{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                align-items: center;
+                .drug_box_3_list_item{
+                    padding: 7px 8px;
+                    border: 1px solid #666666;
+                    color: #666666;
+                    font-size: 14px;
+                    border-radius: 4px;
+                    margin-right: 8px;
+                }
+            }
+        }
+        .drug_box_4{
+            margin-top: 16px;
+            .drug_box_4_title{
+                font-size: 14px;
+                color: #666666;
+                margin-bottom: 8px;
+            }
+            .drug_box_4_list{
+                font-size: 12px;
+                color: #666666;
+                white-space: pre-wrap!important;
+                word-wrap: break-word!important;
+            }
+        }
+    }
+    .check_result{
+        padding: 16px 12px;
+        background-color: #ffffff;
+        border-radius: 6px;
+        .check_result_title{
+            font-size: 16px;
+            color: #F48E18;
+        }
+    }
+    .producer_sty{
+        padding: 16px 12px;
+        background-color: #ffffff;
+        border-radius: 6px;
+        .producer_text_sty{
+            font-size: 14px;
+            color: #666666;
+            font-family: Hiragino Sans GB;
+        }
+    }
+    .btm_sty{
+        display: flex;
+        flex-direction: row;
+        margin-top: 8px;
+        margin-bottom: 19px;
+        .btm_img_sty{
+            width: 24px;
+            height: 24px;
+            margin-right: 8px;
+        }
+    }
+    .btm_text_sty{
+        font-size: 14px;
+        color: #666666;
+    }
+}

@@ -1,0 +1,52 @@
+.adress-list-box{ 
+    overflow: hidden;
+    box-shadow: 0px 0px 29px 1px rgba(255,91,12,.2);
+}
+.scroll-box{
+    max-height: 295px;
+    width: 110%;
+    overflow-y: scroll;
+    position: relative;    
+}
+.white,.smoke{
+    height: 45px;
+    padding-left: 10px;
+    line-height: 45px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    background-color: #fff;
+}
+.smoke{
+    background-color: #f7f7f7;
+}
+.cancel-button{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    position: absolute;
+    bottom: -52.5px;
+    left: 50%;
+    margin-left: -20px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 40px;
+    box-shadow: 0px 0px 29px 1px rgba(255,91,12,.2);
+}
+.cancel-button img{
+    width: 20px;
+    height: 20px;
+    margin-top: 9px;
+}
+.selected{
+    color: #4f4f4f;
+    font-weight: bold;
+}
+.selecting{
+    color: #c8161e;
+    font-weight: bold;
+}
+.will-select{
+    color: #4f4f4f;
+    opacity: 0.7;
+    font-weight: bold;
+}

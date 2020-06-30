@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+    <title>页面内Native</title>
+    <script src="https://res2.wx.qq.com/open/js/jweixin-1.4.0.js"></script>
+</head>
+
+<body style="margin: unset;width: 100vw;height: 100vh;overflow: hidden;">
+    <script>
+        function playVideo() { 
+            var video = document.getElementById("vido_one");
+            if (window.WeixinJSBridge) {
+                WeixinJSBridge.invoke('getNetworkType', {}, function (e) {
+                    video.play();
+                }, false);
+            } else {
+                document.addEventListener("WeixinJSBridgeReady", function () {
+                    WeixinJSBridge.invoke('getNetworkType', {}, function (e) {
+                        video.play();
+                    });
+                }, false);
+            }
+            video ? video.play() : '';
+        }
+        window.addEventListener("message", receiveMessage, false);
+        function receiveMessage(event) {
+            let origin = event.origin 
+        } 
+    </script>
+    <button onclick="playVideo()" id="playBtn">播放</button>
+    <video 
+        style="width: 100%; height: 100%; display: block; position: absolute; top: 0"
+        id="vido_one" width="100%" height="100%"  
+        src="https://wanhuhealth.oss-cn-beijing.aliyuncs.com/weixin-static/ads/point_ads.mp4" 
+        autoplay
+        webkit-playsinline="true" 
+        playsinline="true" 
+        x-webkit-airplay="allow" 
+        webkit-playsinline
+        playsinline
+        x5-video-player-type="h5"
+        x5-video-player-fullscreen="false" 
+        x5-video-orientation="portraint">
+    </video> 
+
+</body>
+
+</html>

@@ -1,0 +1,129 @@
+.insuranceList{
+    .am-card-header-extra{
+        flex: unset;
+    }
+    .insuranceBody{ 
+        font-size: 16px; 
+        font-weight: 300;
+        color: #666666; 
+        .ant-row{
+            padding-bottom: 10px;
+        }
+        .payRow{  
+            color: #222222;
+            text-align: right;
+            padding-bottom: unset;
+        }
+    }
+    .payButton, .payButton:focus, .payButton:active ,.payButton:hover{
+        margin-left: 10px; 
+        height: 36px; 
+        border: 1px solid #C8161D;
+        border-radius: 24px;
+        background-color: unset;
+    }
+    .payButton span{
+        color: #C8161D;
+        font-size: 18px;
+    }
+}
+.insuranceInfo{
+    font-family: DIN, Hiragino Sans GB; 
+    .title{
+        position: relative;
+        .titleText{
+            position: absolute;
+            top: 0;
+            left: 5%;
+            width: 70%; 
+            height: 100%;
+            font-size: 18px; 
+            font-weight: 600;
+            color: #FFFFFF;
+            line-height: 24px;
+            -webkit-align-items: center;
+            align-items: center;
+            display: -webkit-flex;
+            display: flex;
+            div{
+                margin: 0px auto;
+            }
+        }
+        .titleButton{
+            position: absolute;
+            top: 0;
+            left: 71%;
+            width: 29%;
+            height: 100%;
+            -webkit-align-items: center;
+            align-items: center;
+            display: -webkit-flex;
+            display: flex;
+            div{
+                margin: 0px auto;
+                .payButton, .payButton:focus, .payButton:active ,.payButton:hover{ 
+                    width: 100%;
+                    height: 30px;
+                    opacity: 1;
+                    border-radius: 24px;
+                    line-height: 26px;
+                    padding: 0px 8px;
+                    border: 2px solid #FFFFFF;
+                    background: unset;
+                }
+                .payButton span{  
+                    font-size: 16px; 
+                    color: #FFFFFF;
+                }
+            }
+            
+        }
+    }
+    .PayButton, .PayButton:focus, .PayButton:active ,.PayButton:hover{ 
+        width: 100%;
+        height: 44px;
+        opacity: 1;
+        border-radius: 4px;
+        border: 1px solid #C8161D;
+        background: #C8161D;
+    }
+    .PayButton span{  
+        font-size: 16px; 
+        color: #FFFFFF;
+    }
+    .stepTitle{   
+        .title{ 
+            float: left;
+            font-weight: 600; 
+            opacity: 1;
+            font-size: 16px;  
+        } 
+        .titleButton{
+            float: right;
+            color: #418DC7;
+            font-size: 16px;
+        }
+    }
+    .info{ 
+        font-size: 16px; 
+        color: #666666; 
+        .ant-row{
+            padding-bottom: 12px;
+        }
+        .rightValue{
+            text-align: right;
+            font-family: DIN;
+        }
+    }
+    
+}
+._insDetail, ._insDetail:focus, ._insDetail:hover, ._insDetail:active{
+    border: 1px solid #F48E18 !important;
+    border-radius: 15px;
+    color: #F48E18;
+    background-color: unset;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 5px;
+    font-size: 14px;
+}
